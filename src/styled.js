@@ -80,9 +80,14 @@ export const Container = styled.div`
 
     @media (min-width:518px) and (orientation:landscape) {
         .buttons {
-            right:480px;
+            flex-direction:row;
+            left:0px; 
         }
 
+        .button-inventory {
+            margin:0 0px 20px 70px;
+
+         }
         
 
     }
