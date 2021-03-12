@@ -78,5 +78,14 @@ export const Container = styled.div`
         }
     }
 
+    @media (min-width:518px) and (orientation:landscape) {
+        .buttons {
+            right:480px;
+        }
+
+        
+
+    }
+
 
 `
